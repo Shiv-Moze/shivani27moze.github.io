@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shivani Moze — ML & GenAI Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-name">Shivani Moze</div>
+        <div class="brand-tag">Machine Learning • GenAI</div>
+      </div>
+
+      <nav class="socials">
+        <a href="https://github.com/Shiv-Moze" target="_blank" title="GitHub">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github">
+        </a>
+        <a href="https://www.linkedin.com/in/shivani-moze-586240223/" target="_blank" title="LinkedIn (add your profile URL)">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="linkedin">
+        </a>
+        <a href="https://www.kaggle.com/" target="_blank" title="Kaggle (add your profile URL)">
+          <img src="https://www.vectorlogo.zone/logos/kaggle/kaggle-icon.svg" alt="kaggle">
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Hello — I'm Shivani</h1>
+        <p class="lead">I build Machine Learning & Generative AI projects. Explore my GitHub repos below.</p>
+
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="ml">ML</button>
+          <button class="filter-btn" data-filter="genai">GenAI</button>
+          <button class="filter-btn" data-filter="dash">Dashboards</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects-section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div id="project-grid" class="project-grid">
+          <!-- JS injects project cards here -->
+        </div>
+        <div id="projects-empty" class="empty-msg" hidden>
+          No projects found.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Shivani Moze • Built with ❤️ • Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
